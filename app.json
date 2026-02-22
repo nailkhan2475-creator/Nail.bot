@@ -1,0 +1,21 @@
+{
+    "name": "nail bot",
+    "description": "mini web bot",
+    "logo": "https://files.catbox.moe/vmnp79.png",
+    "repository": "https://github.com/XdKing2/free-sc-mini",
+    
+    "keywords": [
+    "malvin-xd","XdKing2"
+    ],
+    
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
